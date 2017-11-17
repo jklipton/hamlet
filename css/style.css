@@ -6,8 +6,8 @@ by Jennifer Lipton
 
 html { 
   background:  linear-gradient(
-      rgba(71, 5, 66, 0.45), 
-      rgba(71, 5, 66, 0.45)
+      rgba(71, 5, 66, 0.8), 
+      rgba(71, 5, 66, 0.8)
     ),
   url('../imgs/flower-bg.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
