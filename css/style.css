@@ -6,4 +6,6 @@ by Jennifer Lipton
 
 body {
   background-image: url('../imgs/flower-bg.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   }
