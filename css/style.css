@@ -99,15 +99,10 @@ body {
 h1 {
     font-family: 'bush_marketregular';
     font-size: 8em;
-	color: #FFF;
+    color: #FFF;
+	padding: 0;
+	margin: auto;
 }
-
-.h1 {
-    font-family: 'bush_marketregular';
-    font-size: 8em;
-	color: #FFF;
-}
-
 
 p {
     padding: 10px;
