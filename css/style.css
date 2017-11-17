@@ -68,6 +68,11 @@ body {
 	text-align: center;
 }
 
+.box {
+	width: 400px;
+	margin: auto;
+}
+
 
 .main {
 	width: auto;
