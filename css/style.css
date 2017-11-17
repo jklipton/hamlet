@@ -65,12 +65,13 @@ body {
 	position: absolute;
 	bottom: 0;
 	background-color: #6699ff;
-	text-align: center;
 }
 
 .box {
 	width: 400px;
 	margin: auto;
+	text-align: center;
+
 }
 
 
