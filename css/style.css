@@ -61,13 +61,13 @@ body {
 
 .nav {
 	height: 80px;
-	width: 800px;
+	width: 100%;
 	position: absolute;
 	bottom: 0;
-	left: 50%;
 	background-color: #6699ff;
 	text-align: center;
 }
+
 
 .main {
 	width: auto;
