@@ -62,9 +62,9 @@ body {
 .nav {
 	height: 80px;
 	width: 800px;
-	margin: auto;
 	position: absolute;
 	bottom: 0;
+	left: 50%;
 	background-color: #6699ff;
 	text-align: center;
 }
