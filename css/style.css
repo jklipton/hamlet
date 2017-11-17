@@ -24,7 +24,7 @@ html {
     font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display');
 
 body {
     margin: 0;
@@ -97,6 +97,7 @@ body {
 .nav{
 	color:#E7BE74;
 	text-transform: capitalize;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -112,6 +113,7 @@ h2 {
 	margin: auto;
 	color: #E7BE74;
 	text-transform: capitalize;
+	font-family: 'Montserrat', sans-serif;
 }
 p {
     padding: 10px;	
