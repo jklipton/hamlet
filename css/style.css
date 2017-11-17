@@ -34,18 +34,15 @@ body {
 // Divs
 .wrapper {
     margin: 0 auto;
-    width: 1000px;
 }
 
 .header {
     float: left;
     height: 150px;
-    width: 1000px;
 }
 
 .main {
     float: left;
-    width: 1000;
 }
 
 .main intro {
