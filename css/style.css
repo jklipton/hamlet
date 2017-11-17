@@ -96,7 +96,7 @@ body {
 
 .nav{
 	color:#E7BE74;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -112,7 +112,7 @@ h2 {
 	padding: 10px;
 	margin: auto;
 	color: #E7BE74;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 }
 p {
