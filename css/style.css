@@ -26,10 +26,40 @@ html {
 }
 
 body {
-    font-family: serif;
-    color: white;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#FFF;
 }
 
-header {
+// Divs
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.header {
+    float: left;
+    height: 150px;
+    width: 1000px;
+}
+
+.main {
+    float: left;
+    background: #FFFFFF;
+    width: 1000;
+}
+
+.main intro {
     font-family: 'bush_marketregular';
+    font-size: 20px;
+}
+
+.main content {
+  
+}
+
+//Text
+
+p {
+    padding: 10px;
 }
