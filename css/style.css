@@ -59,9 +59,9 @@ body {
 }
 
 .nav {
-	height: 113px;
+	height: 80px;
 	width: 800px;
-	margin: auto;
+	margin: 0 auto auto;
 	background-color: #6699ff;
 }
 
