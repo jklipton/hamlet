@@ -94,6 +94,11 @@ body {
 
  /* Text */ 
 
+.nav{
+	color:#E7BE74;
+	text-transform: capitalize;
+}
+
 h1 {
     font-family: 'bush_marketregular';
     font-size: 9em;
@@ -102,8 +107,13 @@ h1 {
 	margin: auto;
 }
 
+h2 {
+	padding: 10px;
+	margin: auto;
+	color: #E7BE74;
+	text-transform: capitalize;
+}
 p {
-    padding: 10px;
-	
+    padding: 10px;	
 }
 
