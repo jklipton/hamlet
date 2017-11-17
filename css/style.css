@@ -14,4 +14,13 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+    }
+
+@font-face {
+    font-family: 'bush_marketregular';
+    src: url('bushmarket-regular-webfont.woff2') format('woff2'),
+         url('bushmarket-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
