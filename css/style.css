@@ -22,15 +22,16 @@ html {
          url('bushmarket-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 body {
     margin: 0;
     padding: 0; 
     width: 100%; 
     height: 100%; 
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 13px;
     color:#FFF;
 }
@@ -95,7 +96,7 @@ body {
 
 h1 {
     font-family: 'bush_marketregular';
-    font-size: 8em;
+    font-size: 9em;
     color: #FFF;
 	padding: 0;
 	margin: auto;
@@ -103,5 +104,6 @@ h1 {
 
 p {
     padding: 10px;
+	
 }
 
