@@ -53,9 +53,10 @@ body {
 	width: auto; 
 }
 
-.header {
-	width: 100%;
+.nav {
 	height: 113px;
+	width: 800px;
+	margin: auto;
 	background-color: #6699ff;
 }
 
