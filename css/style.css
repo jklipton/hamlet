@@ -24,3 +24,11 @@ html {
     font-style: normal;
 
 }
+
+body {
+    font-family: serif;
+}
+
+header {
+    font-family: 'bush_marketregular';
+}
