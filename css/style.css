@@ -5,5 +5,5 @@ by Jennifer Lipton
 */
 
 body {
-  background-image: url("imgs/flower-bg.jpg");
+  background-image: url('../imgs/flower-bg.jpg');
   }
