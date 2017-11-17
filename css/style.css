@@ -45,12 +45,12 @@ body {
     float: left;
 }
 
-.main intro {
+.main .intro {
     font-family: 'bush_marketregular';
     font-size: 20px;
 }
 
-.main content {
+.main .content {
   
 }
 
