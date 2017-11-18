@@ -93,17 +93,17 @@ body {
 .form-results{
 }
 
- /* Text */ 
+ /* Nav */ 
 
 .nav{
 	color:#E7BE74;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
-    font-size: 1.4em;
+     font-size: 1.4em;
 }
 
 ul{
-	list-style-type: none;
+   list-style-type: none;
     margin: 0;
     padding: 0;
 }
@@ -113,14 +113,12 @@ ul li{
     padding: 0 5px;
 }
 
-ul a, ul a:visited{
-    text-decoration: none;
-    color: #E7BE74;
-}
-
-ul a:hover{
+ul:hover{
     color: #ffd484;
 }
+
+ /* Text */ 
+
 
 h1 {
     font-family: 'bush_marketregular';
