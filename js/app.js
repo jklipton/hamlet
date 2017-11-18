@@ -7,7 +7,7 @@ var languageInStorage = localStorage.getItem('language');
 window.onload = function () {
   if (JSON.parse(localStorage.getItem('language') === null)) {
   } else if (JSON.parse(localStorage.getItem('language') === 'English')) {
-      document.getElementById("monologue").innerHTML = '<object type="type/html" data=".../results/english.html" ></object>';
+      document.getElementById("monologue").innerHTML = '<object type="text/html" data=".../results/english.html"></object>';
   } else if (JSON.parse(localStorage.getItem('language') === 'French')) {
       document.getElementById("monologue").innerHTML = "Hamlet in French";
   } else if (JSON.parse(localStorage.getItem('language') === 'Spanish')) {
@@ -24,9 +24,17 @@ document.getElementById("English").addEventListener("click", function(){
 
 });
 
-
 document.getElementById("French").addEventListener("click", function(){
     document.getElementById("monologue").innerHTML = "Hamlet in French";
-    var language = 'French';
     localStorage.setItem('language', 'French');
+});
+
+document.getElementById("Spanish").addEventListener("click", function(){
+    document.getElementById("monologue").innerHTML = "Hamlet in Spanish";
+    localStorage.setItem('language', 'Spanish');
+});
+
+document.getElementById("Russian").addEventListener("click", function(){
+    document.getElementById("monologue").innerHTML = "Hamlet in Russian";
+    localStorage.setItem('language', 'Russian');
 });
