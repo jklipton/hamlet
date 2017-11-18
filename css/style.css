@@ -71,6 +71,7 @@ body {
 	width: 450px;
 	margin: auto;
 	text-align: center;
+	overflow: visible;
 }
 
 .main {
