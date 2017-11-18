@@ -61,15 +61,14 @@ body {
 }
 
 .nav {
-	height: 50px;
+	height: 40px;
 	width: 100%;
 	position: absolute;
 	bottom: 0;
-	background-color: #6699ff;
 }
 
 .box {
-	width: 400px;
+	width: 450px;
 	margin: auto;
 	text-align: center;
 }
@@ -82,7 +81,6 @@ body {
 
 .intro {
     width: 100%; 
-    background-color: #ff2d0d;
 }
 
 .book {
@@ -92,18 +90,36 @@ body {
   
 }
 
+.form-results{
+}
+
  /* Text */ 
 
 .nav{
 	color:#E7BE74;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
 }
 
 ul{
 	list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+ul li{
+    display:inline;
+    padding: 0 5px;
+}
+
+ul a, ul a:visited{
+    text-decoration: none;
+    color: #E7BE74;
+}
+
+ul a:hover{
+    color: #ffd484;
 }
 
 h1 {
@@ -125,7 +141,7 @@ h2 {
 p {
     padding: 0px;
     text-align: justify;
-	line-height: 110%;
+	line-height: 130%;
 }
 
 
