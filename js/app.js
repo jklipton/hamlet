@@ -3,38 +3,93 @@
 var language = null;
 var languageInStorage = localStorage.getItem('language');
 
-
 window.onload = function () {
   if (JSON.parse(localStorage.getItem('language') === null)) {
   } else if (JSON.parse(localStorage.getItem('language') === 'English')) {
-      document.getElementById("monologue").innerHTML = '<object type="text/html" data="results/english.html"></object>';
-  } else if (JSON.parse(localStorage.getItem('language') === 'French')) {
-      document.getElementById("monologue").innerHTML = "Hamlet in French";
-  } else if (JSON.parse(localStorage.getItem('language') === 'Spanish')) {
-      document.getElementById("monologue").innerHTML = "Hamlet in Spanish";
-  } else if (JSON.parse(localStorage.getItem('language') === 'Russian')) {
-      document.getElementById("monologue").innerHTML = "Hamlet in Russian";
-  } else {}
+     var xhr = typeof XMLHttpRequest != 'undefined' ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+xhr.open('get', 'results/english.html', true);
+xhr.onreadystatechange = function() {
+    if (xhr.readyState == 4 && xhr.status == 200) { 
+        document.getElementById("monologue").innerHTML = xhr.responseText;
+    } 
 }
+xhr.send();
+    }  else if (JSON.parse(localStorage.getItem('language') === 'French')) {
+     var xhr = typeof XMLHttpRequest != 'undefined' ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+xhr.open('get', 'results/french.html', true);
+xhr.onreadystatechange = function() {
+    if (xhr.readyState == 4 && xhr.status == 200) { 
+        document.getElementById("monologue").innerHTML = xhr.responseText;
+    } 
+}
+xhr.send();
+  } else if (JSON.parse(localStorage.getItem('language') === 'Spanish')) {
+     var xhr = typeof XMLHttpRequest != 'undefined' ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+xhr.open('get', 'results/spanish.html', true);
+xhr.onreadystatechange = function() {
+    if (xhr.readyState == 4 && xhr.status == 200) { 
+        document.getElementById("monologue").innerHTML = xhr.responseText;
+    } 
+}
+xhr.send();
+    }  else if (JSON.parse(localStorage.getItem('language') === 'Russian')) {
+     var xhr = typeof XMLHttpRequest != 'undefined' ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+xhr.open('get', 'results/russian.html', true);
+xhr.onreadystatechange = function() {
+    if (xhr.readyState == 4 && xhr.status == 200) { 
+        document.getElementById("monologue").innerHTML = xhr.responseText;
+    } 
+}
+xhr.send();
+    }  else {}
+ }
 
     
 document.getElementById("English").addEventListener("click", function(){
-    document.getElementById("monologue").innerHTML = "Hamlet in English";
     localStorage.setItem('language', 'English');
+    var xhr = typeof XMLHttpRequest != 'undefined' ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+xhr.open('get', 'results/english.html', true);
+xhr.onreadystatechange = function() {
+    if (xhr.readyState == 4 && xhr.status == 200) { 
+        document.getElementById("monologue").innerHTML = xhr.responseText;
+    } 
+}
+xhr.send();
 
 });
 
 document.getElementById("French").addEventListener("click", function(){
-    document.getElementById("monologue").innerHTML = "Hamlet in French";
     localStorage.setItem('language', 'French');
+    var xhr = typeof XMLHttpRequest != 'undefined' ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+xhr.open('get', 'results/french.html', true);
+xhr.onreadystatechange = function() {
+    if (xhr.readyState == 4 && xhr.status == 200) { 
+        document.getElementById("monologue").innerHTML = xhr.responseText;
+    } 
+}
+xhr.send();
 });
 
 document.getElementById("Spanish").addEventListener("click", function(){
-    document.getElementById("monologue").innerHTML = "Hamlet in Spanish";
     localStorage.setItem('language', 'Spanish');
+    var xhr = typeof XMLHttpRequest != 'undefined' ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+xhr.open('get', 'results/spanish.html', true);
+xhr.onreadystatechange = function() {
+    if (xhr.readyState == 4 && xhr.status == 200) { 
+        document.getElementById("monologue").innerHTML = xhr.responseText;
+    } 
+}
+xhr.send();
 });
 
 document.getElementById("Russian").addEventListener("click", function(){
-    document.getElementById("monologue").innerHTML = "Hamlet in Russian";
     localStorage.setItem('language', 'Russian');
+    var xhr = typeof XMLHttpRequest != 'undefined' ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+xhr.open('get', 'results/russian.html', true);
+xhr.onreadystatechange = function() {
+    if (xhr.readyState == 4 && xhr.status == 200) { 
+        document.getElementById("monologue").innerHTML = xhr.responseText;
+    } 
+}
+xhr.send();
 });
