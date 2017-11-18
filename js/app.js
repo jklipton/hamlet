@@ -7,7 +7,7 @@ var languageInStorage = localStorage.getItem('language');
 window.onload = function () {
   if (JSON.parse(localStorage.getItem('language') === null)) {
   } else if (JSON.parse(localStorage.getItem('language') === 'English')) {
-      document.getElementById("monologue").innerHTML = "Hamlet in English";
+      document.getElementById("monologue").innerHTML = '<object type="type/html" data=".../results/english.html" ></object>';
   } else if (JSON.parse(localStorage.getItem('language') === 'French')) {
       document.getElementById("monologue").innerHTML = "Hamlet in French";
   } else if (JSON.parse(localStorage.getItem('language') === 'Spanish')) {
